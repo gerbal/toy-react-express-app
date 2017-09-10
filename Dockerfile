@@ -13,4 +13,4 @@ COPY server/ /usr/src/app/
 
 ENV PORT 80
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "serve:prod" ]
